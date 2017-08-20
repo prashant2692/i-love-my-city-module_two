@@ -1,0 +1,14 @@
+<div>
+    <h1 align="center" class="heading"><%= headline %></h1>
+</div>
+<!--Image Section-->
+<div class="row">
+
+    <% for (var i = 1; i <= imageCount; i++){ %>
+    <div class="col-md-6">
+        <div class="thumbnail">
+            <img src="/images/<%= cityName %>/<%= cityName %>-<%= i %>.jpg">
+        </div>
+    </div>
+    <% } %>
+</div>
